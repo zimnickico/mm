@@ -20,7 +20,8 @@ agents
 
 # testing examples
 md
-templates
+/templates
+examples/markdown/.broadcasts
 
 # local codebook config
 codebook.toml
