@@ -1,17 +1,20 @@
 {
-  "name": "mm",
+  "name": "@markdown-mailer/cli",
   "type": "module",
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zimnickico/markdown-mailer.git"
+  },
   "bin": {
-    "mm": "src/index.ts"
+    "markdown-mailer": "src/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5"
-  },
-  "optionalDependencies": {
+    "typescript": "^5",
     "@react-email/render": "^1.2.2",
     "@react-email/components": "^0.0.22",
     "@react-email/markdown": "^0.0.6",
@@ -23,5 +26,6 @@
     "gray-matter": "^4.0.3",
     "marked": "^16.2.1",
     "resend": "^6.0.3"
-  }
+  },
+  "version": "0.0.3"
 }

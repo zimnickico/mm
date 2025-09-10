@@ -1,5 +1,6 @@
-# dependencies (bun install)
+# npm
 node_modules
+.npmrc
 
 # output
 out
