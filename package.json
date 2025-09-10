@@ -1,0 +1,27 @@
+{
+  "name": "mm",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "mm": "src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "optionalDependencies": {
+    "@react-email/render": "^1.2.2",
+    "@react-email/components": "^0.0.22",
+    "@react-email/markdown": "^0.0.6",
+    "react": "^19.1.1"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "dotenv": "^17.2.2",
+    "gray-matter": "^4.0.3",
+    "marked": "^16.2.1",
+    "resend": "^6.0.3"
+  }
+}
